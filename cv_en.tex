@@ -1,0 +1,111 @@
+\documentclass[11pt, a4paper]{article}
+%\usepackage{fontspec} 
+\usepackage{etaremune}
+
+% DOCUMENT LAYOUT
+\usepackage{geometry} 
+\geometry{a4paper, textwidth=6.1in, textheight=10.2in, marginparsep=7pt, marginparwidth=.6in}
+\setlength\parindent{0in}
+
+\usepackage[english]{babel}
+\usepackage[bookmarks, colorlinks, breaklinks, 
+% ---- FILL IN HERE THE TITLE AND AUTHOR
+	pdftitle={Javier Acevedo - vita},
+	pdfauthor={Javier Acevedo},
+]{hyperref}
+
+\usepackage[utf8]{inputenc} % Acepta caracteres en castellano
+\usepackage[T1]{fontenc} % Encoding de salida al pdf
+
+\usepackage{marginnote}
+\newcommand{\years}[1]{\marginnote{\scriptsize #1}}
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{7pt}
+
+
+% ---- CUSTOM COMMANDS
+
+\newcommand{\html}[1]{\href{#1}{\scriptsize\textsc{[html]}}}
+\newcommand{\pdf}[1]{\href{#1}{\scriptsize\textsc{[pdf]}}}
+\newcommand{\doi}[1]{\href{#1}{\scriptsize\textsc{[doi]}}}
+
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{7pt}
+\reversemarginpar
+
+
+
+
+
+
+
+
+
+\begin{document}
+\begin{center}{\huge \bf Javier Alejandro Acevedo Barroso}\\[1cm]\end{center}
+\begin{minipage}[t]{0.465\textwidth}
+  Phone: (+57) 301-680-9844 \\
+  Email: \href{mailto:ja.acevedo12@uniandes.edu.co}{ja.acevedo12@uniandes.edu.co}\\
+  Email: \href{mailto:ja.acevedob12@gmail.com}{ja.acevedob12@gmail.com}\\
+  Github: \href{https://github.com/ClarkGuilty}{ClarkGuilty}\\
+\end{minipage}
+
+\hrule
+
+\section*{Personal information}
+Born in Bucaramanga, Colombia, on January 4\textsuperscript{th} 1997 (22 years).
+
+\section*{Interest areas}
+\begin{itemize}
+%\item Reconstrucción y modelamiento de lentes gravitacionales fuertes.
+\item Reconstruction and modelling of gravitational lens.
+\item Search for stellar variability.
+\item Local extragalactic distance measurement
+\item Machine Learning in astronomy.
+\item Numerical simulations.
+\item Dark matter.
+\end{itemize}
+
+\section*{Education}
+\noindent
+\years{2015-2019}\textsc{Undergraduate physics studies}\\ {\emph{Institution}}: Departamento de Física, Universidad de los Andes. {\emph{Dissertation}}: Simulating a collisional dark matter fluid using a Lattice-Boltzmann method. {\emph{Advisor}}: Dr. Jaime Forero.\\
+
+\years{2019-2020}\textsc{Master in Sciences-Physics\footnote{Tentative graduation date}}\\ {\emph{Institution}}: Departamento de Física, Universidad de los Andes. {\emph{Dissertation}}: Search for extragalactic variable stars using Machine Learning algorithms. {\emph{Advisor}}: Dr. Alejandro García.\\
+\section*{Participation in events}
+\years{2019}{MOCa 2019: Dark Matter in Colombia (Materia Oscura en Colombia).}\\ {\emph{Institution}}: Departamento de Física, Universidad de los Andes. {\emph{Talk}}: Simulating collisional dark matter.\\
+\years{2019}{COCOA 2019 Medellín: VI Colombian Congress of Astronomy and Astrophysics (VI Congreso Colombiano de Astronomía y Astrofísica).}\\ {\emph{Organizers}}: Universidad de Antioquia, Parque Explora – Planetario de Medellín, Instituto Tecnológico Metropolitano ITM y Sociedad Antioqueña de Astronomía SAA. {\emph{Talk}}: Simulating Collisional Dark Matter (Simulando materia oscura colisional).\\
+\years{2018}{Uniandes School of Astronomy 2018 (Escuela de Astronomía Uniandes 2018).}\\ {\emph{Institution}}: Departamento de Física, Universidad de los Andes. \\
+\years{2018}{MOCa 2018: Dark Matter in Colombia (Materia Oscura en Colombia).}\\ {\emph{Institution}}: Departamento de Física, Universidad de los Andes. {\emph{Talk}}: Simulating Collisional Dark Matter.\\
+\section*{Research activities}
+\years{2019-2020}{Search for extragalactic variable stars using Machine Learning algorithms (Búsqueda de estrellas variables extragalácticas usando algoritmos de Machine Learning).}\\ {\emph{Institution}}: Departamento de Física, Universidad de los Andes. {\emph{Advisor}}: Dr. Alejandro García.\\	
+\years{2019}{Measurement of the rotation velocity of type B and A stars (Medición de la velocidad de rotación de estrellas tipo B y A).}\\ {\emph{Institution}}: Departamento de Física, Universidad de los Andes. {\emph{Advisor}}: Dr. Alejandro García.\\	
+\years{2018-2020}{Simulating collisional dark matter using a lattice Boltzmann method.}\\ {\emph{Institución}}: Departamento de Física, Universidad de los Andes. {\emph{Advisor}}: Dr. Jaime Forero.\\	
+
+
+\section*{Teaching experience}
+\years{2019}{Teaching assistant, Experimental physics I.}\\ {\emph{Institution}}: Departamento de Física, Universidad de los Andes.\\	
+\years{2019}{Teaching assistant, Experimental physics II.}\\ {\emph{Institution}}: Departamento de Física, Universidad de los Andes.
+
+
+\section*{Other works}
+\years{2019}{Design of the book "Las Bolsas de Basura" by Enrique Winter.}\\ {\emph{Editorial house}}: Escarabajo editorial.\\	
+
+\section*{Awards and scholarships}
+\years{2019}{Teaching assistant with full scholarship for master studies in physics, given by Universidad de los Andes.\\
+\years{2014}{Full scholarship for undergraduate studies "Bachilleres por Colombia, Programa Mario Galán Gómez", given by Ecopetrol.}\\
+\years{2013}{Best student from Santander department. "Prueba Saber 11 2013". given by the Colombian Ministry of Education.}\\ 
+
+\section*{Professional Abilities}
+\begin{itemize}
+\item Teamwork, specially in computational tasks.
+\item High capacity of working under pressure.
+\item Languages: Spanish (native), English (C1), German (A1).
+\item Advanced use of Linux.
+\item Design of articles and books in \LaTeX.
+\item Programming languages: Python (advanced), Bash (intermediate), C (intermediate), R (basic), Java (basic), C++ (basic).
+\item Reduction and analysis of CCD images.
+\item Additional software: Anaconda, IRAF, Git, Make, Pandas, Numpy, Pytorch, Sympy and Spyder.
+\end{itemize}
+
+
+\end{document}
