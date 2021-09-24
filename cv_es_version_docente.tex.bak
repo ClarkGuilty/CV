@@ -1,0 +1,139 @@
+\documentclass[11pt, a4paper]{article}
+%\usepackage{fontspec} 
+\usepackage{etaremune}
+\usepackage{csquotes}
+% DOCUMENT LAYOUT
+\usepackage{geometry} 
+\geometry{a4paper, textwidth=6.1in, textheight=10.2in, marginparsep=7pt, marginparwidth=.6in}
+\setlength\parindent{0in}
+
+\usepackage[spanish]{babel}
+\usepackage[bookmarks, colorlinks, breaklinks, 
+% ---- FILL IN HERE THE TITLE AND AUTHOR
+	pdftitle={Javier Acevedo - vita},
+	pdfauthor={Javier Acevedo},
+]{hyperref}
+
+\usepackage[utf8]{inputenc} % Acepta caracteres en castellano
+\usepackage[T1]{fontenc} % Encoding de salida al pdf
+
+\usepackage{marginnote}
+\newcommand{\years}[1]{\marginnote{\scriptsize #1}}
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{7pt}
+
+
+% ---- CUSTOM COMMANDS
+
+\newcommand{\html}[1]{\href{#1}{\scriptsize\textsc{[html]}}}
+\newcommand{\pdf}[1]{\href{#1}{\scriptsize\textsc{[pdf]}}}
+\newcommand{\doi}[1]{\href{#1}{\scriptsize\textsc{[doi]}}}
+
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{7pt}
+\reversemarginpar
+
+
+
+
+
+
+
+
+
+\begin{document}
+\begin{center}{\huge \bf Javier Alejandro Acevedo Barroso}\\[1cm]\end{center}
+\begin{minipage}[t]{0.465\textwidth}
+  Teléfono: (+57) 301-680-9844 \\
+  Email: \href{mailto:ja.acevedo12@uniandes.edu.co}{ja.acevedo12@uniandes.edu.co}\\
+  Email: \href{mailto:ja.acevedob12@gmail.com}{ja.acevedob12@gmail.com}\\
+\end{minipage}
+
+\hrule
+
+\section*{Información Personal}
+Nacido en Bucaramanga, Colombia, el 4 de enero de 1997 (24 años).
+
+\section*{Áreas de Interés}
+\begin{itemize}
+\item Reconstrucción y modelamiento de lentes gravitacionales.
+\item Búsqueda de estrellas variables.
+\item Medición de distancia extragaláctica.
+\item Machine Learning e inteligencia artifical aplicada.
+\item Filosofía de la pedagogía.
+\item Materia oscura.
+
+\end{itemize}
+
+\section*{Educación}
+\noindent
+\years{2015-2017}\textsc{Cuatro semestres de pregrado en Ingeniería de sistemas}\\ {\emph{Institución}}: Departamento de Ingeniería de Sistemas y Computación, Universidad de los Andes.\\
+
+\years{2015-2019}\textsc{Pregrado en Física}\\ {\emph{Institución}}: Departamento de Física, Universidad de los Andes. {\emph{Tesis}}: Simulación de materia oscura colisional con un método de Lattice-Boltzmann. {\emph{Director}}: Dr. Jaime Forero.\\
+
+\years{2019-2021}\textsc{Maestría en Ciencias-Física\footnote{Candidato a grado.}}\\ {\emph{Institución}}: Departamento de Física, Universidad de los Andes. {\emph{Tesis}}: Búsqueda de estrellas variables extragalácticas usando algoritmos de Machine Learning. {\emph{Director}}: Dr. Alejandro García.\\
+\section*{Participación en Eventos}
+\years{2018}{Escuela de Astronomía Uniandes 2018.}\\ {\emph{Institución}}: Departamento de Física, Universidad de los Andes. \\
+\years{2018}{MOCa 2018: Materia Oscura en Colombia}\\ {\emph{Institución}}: Departamento de Física, Universidad de los Andes. {\emph{Charla}}: Simulating Collisional Dark Matter.\\
+\years{2019}{MOCa 2019: Materia Oscura en Colombia}\\ {\emph{Institución}}: Departamento de Física, Universidad de los Andes. {\emph{Charla}}: Simulating collisional dark matter.\\
+\years{2019}{COCOA 2019 Medellín: VI Congreso Colombiano de Astronomía y Astrofísica }\\ {\emph{Organizadores}}: Universidad de Antioquia, Parque Explora – Planetario de Medellín, Instituto Tecnológico Metropolitano ITM y Sociedad Antioqueña de Astronomía SAA. {\emph{Charla}}: Simulando materia oscura colisional.\\
+\section*{Actividad de Investigación}
+\years{2019-En curso}{Modelamiento de lente gravitacional usando datos del telescopio de 2.2-m ESO/MPG para medir $H_0$ (H0LICOW)}\\ {\emph{Institución}}: Departamento de Física, Universidad de los Andes. {\emph{Director}}: Dr. Alejandro García y Dr. Frédéric Courbin.\\	
+\years{2019-2021}{Búsqueda de estrellas variables extragalácticas usando algoritmos de Machine Learning}\\ {\emph{Institución}}: Departamento de Física, Universidad de los Andes. {\emph{Director}}: Dr. Alejandro García.\\	
+\years{2019}{Medición de la velocidad de rotación de estrellas tipo B y A}\\ {\emph{Institución}}: Departamento de Física, Universidad de los Andes. {\emph{Director}}: Dr. Alejandro García.\\	
+\years{2018-2020}{Simulación de materia oscura colisional con un método de Lattice-Boltzmann.}\\ {\emph{Institución}}: Departamento de Física, Universidad de los Andes. {\emph{Director}}: Dr. Jaime Forero.\\	
+\years{2017}{Caracterización de materiales utilizando tomografía de Muones}\\ {\emph{Institución}}: Departamento de Física, Universidad de los Andes. {\emph{Director}}: Dr. Carlos Ávila.\\
+
+\section*{Experiencia Docente}
+\years{2019-2020}{Asistente graduado, Física experimental I.}\\ {\emph{Institución}}: Departamento de Física, Universidad de los Andes. {\emph{Supervisor}}: Germán Andrés Moreno Cely.\\	
+\years{2019-2020}{Asistente graduado, Física experimental II.}\\ {\emph{Institución}}: Departamento de Física, Universidad de los Andes. {\emph{Supervisor}}: Germán Andrés Moreno Cely.\\	
+\years{2017-2018}{Tutor de la Clínica de Problemas de Física.}\\ {\emph{Institución}}: Departamento de Física, Universidad de los Andes. {\emph{Supervisor}}: Juan Diego Arango Montoya.\\	
+
+\section*{Otro trabajos y cursos}
+\years{2019}{Diagramación del libro \textquote{Las Bolsas de Basura} de Enrique Winter.}\\ {\emph{Editorial}}: Escarabajo editorial.\\	
+\years{2020}{Data-Driven Astronomy. Coursera: The University of Sydney.}\\ 
+\years{2020}{Support Vector Machines with scikit-learn. Coursera: Coursera Project Network.}\\ 
+
+\section*{Reconocimientos y Becas}
+\years{2019}{Mejores puntajes. Prueba Saber Pro 2018. Otorgado por el Ministerio de Educación.}\\ 
+\years{2019}{Asistencia graduada para maestría en Ciencias-Física con beca completa, Universidad de los Andes.\\
+\years{2014}{Beca Bachilleres por Colombia, Programa Mario Galán Gómez }. Otorgada por Ecopetrol.\\
+\years{2013}{Mejor estudiande del departamento de Santander. Prueba Saber 11 2013. Otorgado por el Ministerio de Educación.}\\ 
+
+\section*{Habilidades Adicionales}
+\begin{itemize}
+\item Alta habilidad docente y pasión por enseñar.
+\item Enseñanza de fudamentos de la física y matemática universitarias.
+\item Pedagogía virtual, incluyendo diseño y dictado de cursos de laboratorio.
+\item Plataforma Blackboard, y herramientas para desarrollo de clases virtuales (Zoom, Teams, Discord).
+\item Lenguajes: Español (nativo), Inglés (C1), Alemán (A1).
+\item Sistemas operativos Linux y Windows. 
+\item Diagramación profesional en \LaTeX.
+\item Lenguajes de programación: C/C++, Python, R, Java, Bash, Julia y SQL.
+\item Habilidades de ofimática.
+\item Manejo de telescopio y reducción de datos astronómicos.
+\item Manejo de espectrografo de tipo Echelle, incluido el eShel.
+\item Implementación de soluciones con inteligencia artificial (PyTorch, Tensorflow, Flux).
+\item Escritura académica.
+\item Electrónica básica y manejo de Arduino.
+\item Simulaciones computaciones y métodos numéricos.
+\item Uso de software adicional: Anaconda, IRAF, Dash, Sympy, Maxima, Optuna, Pandas, RAPIDS, Scikit-learn, Vim.
+\end{itemize}
+
+\section*{Referencias}
+\begin{itemize}
+\item Dr. Jose Alejandro Garcia Varela\\
+Profesor Departamento de física Universidad de los Andes.\\
+Email: \href{mailto:josegarc@uniandes.edu.co}{josegarc@uniandes.edu.co}
+
+\item Dr. Jaime Ernesto Forero Romero\\
+Profesor Departamento de física Universidad de los Andes.\\
+Email: \href{mailto:je.forero@uniandes.edu.co}{je.forero@uniandes.edu.co}
+
+\item Dr. Jorge Enrique Fiallo Leal\\
+Profesor Escuela de matemáticas Universidad Industrial de Santander.\\
+Email: \href{mailto:jfiallo@uis.edu.co}{jfiallo@uis.edu.co}
+\end{itemize}
+
+
+\end{document}
